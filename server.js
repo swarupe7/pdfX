@@ -21,7 +21,7 @@ app.post('/merge', upload.array('pdfs',2), async (req, res, next)=> {
   // res.send({data:req.files});
   // req.files is array of `photos` files
   // req.body will contain the text fields, if there were any
-  res.redirect(`http://localhost:5000/static/${d}.pdf`);
+  res.redirect(`https://pdf-x-1zmy.onrender.com/static/${d}.pdf`);
 })
 
 
